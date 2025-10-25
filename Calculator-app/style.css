@@ -1,0 +1,29 @@
+* {
+    color:green;
+    background-color: black;
+}
+
+body {
+
+    justify-items: center;
+}
+
+div {
+    margin-top: 10%;
+    padding: 15px;
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    border: 2px solid green;
+    max-width: max-content;
+}
+
+button,
+input {
+    min-width: 150px;
+    max-width: max-content;
+}
+
+input::placeholder {
+    color: green;
+}
